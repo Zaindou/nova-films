@@ -8,6 +8,8 @@ Alternova technical test.
 
 Made with Django Rest Framework, PostgreSql, VueJs, Tailwind and DaisyUI.
 
+![Image text](https://github.com/zzuljs/CppLearning/blob/master/CppLearning/raw/master/Itachi.jpg)
+
 ## Installation
 
 ### Backend
@@ -87,6 +89,7 @@ python manage.py createsuperuser
 http://localhost:8000/admin/
 
 ```
+
 
 Go to the movies section and add some movies, documentals and series.
  
