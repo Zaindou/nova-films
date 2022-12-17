@@ -1,0 +1,42 @@
+{
+  "name": "novafilms",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "autoprefixer": "^10",
+    "axios": "^1.2.1",
+    "core-js": "^3.8.3",
+    "daisyui": "^2.43.2",
+    "firebase": "^9.15.0",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "vue": "^3.2.13",
+    "vue-axios": "^3.5.2",
+    "vue-router": "^4.0.13",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/test-utils": "^2.0.0-0",
+    "@vue/vue3-jest": "^27.0.0-alpha.1",
+    "babel-jest": "^27.0.6",
+    "daisyui": "^2.6.0",
+    "jest": "^27.0.5",
+    "vue-cli-plugin-tailwind": "~3.0.0"
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "author": "",
+  "license": "ISC"
+}
