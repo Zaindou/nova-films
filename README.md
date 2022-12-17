@@ -6,7 +6,7 @@ This is a simple web application that allows users to search for movies, documen
 
 Alternova technical test.
 
-Made with Django Rest Framework, VueJs, Tailwind and DaisyUI.
+Made with Django Rest Framework, PostgreSql, VueJs, Tailwind and DaisyUI.
 
 ## Installation
 
