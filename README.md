@@ -8,7 +8,7 @@ Alternova technical test.
 
 Made with Django Rest Framework, PostgreSql, VueJs, Tailwind and DaisyUI.
 
-![Image text](https://github.com/zzuljs/CppLearning/blob/master/CppLearning/raw/master/Itachi.jpg)
+![Image text](https://github.com/Zaindou/nova-films/blob/main/demo.png)
 
 ## Installation
 
