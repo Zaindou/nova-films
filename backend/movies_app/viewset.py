@@ -12,7 +12,7 @@ from rest_framework import status
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     permission_classes = [
-        permissions.AllowAny
+        permissions.IsAuthenticated
     ]
     serializer_class = UserSerializer
 
@@ -21,7 +21,7 @@ class MovieViewSet(viewsets.ModelViewSet):
     filter_backends = [filters.SearchFilter]
     search_fields = ['nombre', 'genero', 'tipo']
     permission_classes = [
-        permissions.AllowAny     
+        permissions.IsAuthenticated    
     ]
     serializer_class = MovieSerializer
 
@@ -51,7 +51,7 @@ class MovieViewSet(viewsets.ModelViewSet):
 class RandomMovieVieSet(viewsets.ModelViewSet):
     queryset = Movie.objects.all().order_by('?')[:1]
     permission_classes = [
-        permissions.AllowAny
+        permissions.IsAuthenticated
     ]
     serializer_class = MovieSerializer
 
